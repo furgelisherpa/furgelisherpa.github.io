@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Marck+Script&family=Rye&display=swap');
+
+header {
+	text-align: center ;
+	padding: 10px ; 
+}
+
+h1, h2, h3 { 
+	color: #d1da86 ; 
+	font-family: "monospace";
+}
+
+a {
+	color: #87ceeb ;
+	text-decoration: none ;
+}
+
+blockquote {
+	font-family: "Marck Script" ;
+	font-size: 22px ;
+	color: white ;
+	margin-top: 30px ;
+}
+
+.top {
+	max-width: 800px ;
+	margin: auto ;
+	padding: 5px ;
+}
+
+nav {
+	padding: 5px;
+	text-align: center;
+}
+
+nav a {
+	margin: 5px;
+}
+
+nav span {
+	margin: 10px;
+	color: white;
+}
+
+p a:hover, nav a:hover, li a:hover {
+	text-decoration: underline;
+}
+
+.left-navigation {
+	text-align: left ;
+}
+
+body {
+  font-family: 'Lora', monospace;
+	background: #1f292e ;
+	color: #f2b09d ;
+	line-height: 1.4em ;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+	padding: 5px ;
+}
+
+article {
+	padding: 10px ;
+}
+
+footer {
+	max-width: 600px ;
+	margin: auto;
+	text-align: center ;
+	padding: 15px ;
+}
+
+@media only screen and (max-width: 1700px) {
+	body {
+		max-width: 1000px;
+		margin: auto;
+	}
+
+	header {
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		padding: 0.5em;
+		font-size: 85%;
+	}
+
+	header h1 {
+		font-size: 180%;
+	}
+
+	h1 {
+		font-size: 140%;
+	}
+}
