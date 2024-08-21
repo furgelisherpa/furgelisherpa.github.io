@@ -1,149 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Marck+Script&family=Rye&display=swap');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: 'Lora', serif;
-  background-color: #222;
-  color: #fff;
-  line-height: 1.6;
-  padding: 20px;
+  background-color: #121212;
+  color: #f3fbff;
 }
-
-header {
+section {
   text-align: center;
-  margin-bottom: 20px;
-  max-width: 800px;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
-
-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-  color: #d1da86;
-}
-
-nav {
-  margin-bottom: 20px;
-}
-
 nav span {
-  margin-right: 10px;
-  font-size: 1.2em;
+  margin: 0 5px;
 }
-
-nav a {
-  color: #87ceeb;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #6c7a89;
-}
-
 main {
-  background-color: #333;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   max-width: 800px;
-  margin: auto;
-}
-
-main h1, main h2, main h3 {
-  color: #d1da86;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  margin-left: -20px;
-}
-
-main hr {
-  border: none;
-  height: 1px;
-  background-color: #777;
-  margin: 20px 0;
-}
-
-main p {
-  font-size: 1.1em;
-  margin-bottom: 15px;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 0;
-  margin-bottom: 20px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-}
-
-ul li a {
-  color: #87ceeb;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-p a {
-  color: #87ceeb;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-p a:hover {
-  color: #6c7a89;
-}
-
-ul li a:hover {
-  color: #6c7a89;
-}
-
-footer {
-  text-align: center;
-  margin-top: 20px;
   padding: 20px;
-  background-color: #333;
-  border-top: 1px solid #444;
-  max-width: 800px;
-  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  color: #f3fbff;
 }
-
+p {
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #beaae9;
+}
+a:hover {
+  text-decoration: underline;
+}
 footer p {
-  font-size: 0.9em;
-  color: #aaa;
-  margin-top: 10px;
+  text-align: center;
 }
-
-@media only screen and (max-width: 600px) {
-  header h1 {
-    font-size: 2em;
-  }
-  
-  nav span {
-    font-size: 1em;
-  }
-  
-  main {
-    padding: 15px;
-  }
-  
-  main p {
-    font-size: 1em;
-  }
-  
-  main h1, main h2, main h3 {
-    font-size: 1.5em;
-  }
-  
-  ul li {
-    font-size: 0.9em;
-  }
-  
-  footer p {
-    font-size: 0.8em;
-  }
-}
-
