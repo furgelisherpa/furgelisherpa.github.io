@@ -1,48 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Furgeli Sherpa's Website">
-    <title>furgelisherpa's website</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.jpg" type="image/jpg">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal website of Furgeli Sherpa, a Sherpa from Kathmandu, Nepal, into Linux, NixOS, Emacs and web development." />
+    <title>Furgeli Sherpa - Personal Website</title>
+    <link rel="canonical" href="https://furgelisherpa.com.np/">
+    <meta name="author" content="Furgeli Sherpa">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Furgeli Sherpa">
+    <meta property="og:title" content="Furgeli Sherpa - Personal Website">
+    <meta property="og:description" content="Personal website of Furgeli Sherpa, a Sherpa from Kathmandu, Nepal, into Linux, NixOS, Emacs and web development.">
+    <meta property="og:url" content="https://furgelisherpa.com.np/">
+    <meta name="twitter:card" content="summary">
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/home.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.jpg" type="image/jpg" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Furgeli Sherpa",
+      "url": "https://furgelisherpa.com.np/",
+      "sameAs": [
+        "https://github.com/furgelisherpa",
+        "https://www.linkedin.com/in/furgelisherpa"
+      ]
+    }
+    </script>
   </head>
   <body>
-    <header>
-      <h1>Furgeli Sherpa's Website</h1>
-      <nav>
-        <span><a href="index.html">Home</a></span>
-        <span><a href="blogs.html">Blog</a></span>
-        <span><a href="https://github.com/furgelisherpa">Git</a></span>
-        <span><a href="about.html">About</a></span>
+    <div class="page">
+      <header>
+        <h1>Furgeli Sherpa's Website</h1>
+      </header>
+
+      <p class="tagline">
+        A 23 years old from Kathmandu, Nepal, into BSD/Unix systems, Emacs and
+        Web Dev.<br />
+        Also a huge fan of Chelsea Football Club.
+        <a href="about.html">Read more...</a>
+      </p>
+      <div data-nosnippet>
+      <nav class="linkbox" aria-label="Main">
+        <strong>Home</strong><span class="sep">|</span>
+        <a href="about.html">About</a><span class="sep">|</span>
+        <a href="blogs.html">Blog</a><span class="sep">|</span>
+        <a href="interests.html">Interests</a><span class="sep">|</span>
+        <a href="tools.html">Tools</a><span class="sep">|</span>
+        <a href="doing.html">Doing</a><span class="sep">|</span>
+        <a href="https://github.com/furgelisherpa">Git</a>
       </nav>
-    </header>
-    <main>
-      <section class="short-intro">
-        <p>Hey y'all,</p>
-        <p>
-          I am a 22-years-old undergraduate currently pursuing Bachelor's Degree in
-          Information Technology from Purbanchal University, Nepal and a huge fan of
-          Chelsea Football Club.<br>
-          <a href="about.html">Read more...</a>
-        </p>
-        <p>
-          Here, you will find me writing blogs on some niche topics I'm
-          interested in.
-        </p>
-      </section>
-      <section class="website-guide">
-        <h2>Website Guide</h2>
-        <ul>
-          <li>If you find this page ugly - <a href="https://bit.ly/4iwHhIy">It's minimal</a></li>
-          <li>This page was started on 9-May-2023</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p><small>Copyright &copy 2024 furgelisherpa</small></p>
-    </footer>
+      </div>
+
+      <main>
+        <section id="hello">
+          <h2>Hello</h2>
+          <p>
+            I study IT at Purbanchal University and I like figuring out how
+            things work underneath. <a href="about.html">More about me...</a>
+          </p>
+
+          <p>
+            My blog is empty for now. I plan to write about niche things I'm
+            curious about later. <a href="blogs.html">Blog...</a>
+          </p>
+        </section>
+
+        <section id="interests">
+          <h2>Interests</h2>
+          <p>
+            Linux and other Unix-like systems, Emacs, chess, books with big
+            fonts, Queen, a lot of rap, and Chelsea. The stories behind them are
+            on the Interests page. <a href="interests.html">Interests...</a>
+          </p>
+        </section>
+
+        <section id="setup">
+          <h2>Setup</h2>
+          <p>
+            I run NixOS with the COSMIC desktop and do almost everything inside
+            Doom Emacs. <a href="tools.html">Tools...</a>
+          </p>
+        </section>
+
+        <section id="doing">
+          <h2>What I'm Doing</h2>
+          <p>
+            Right now I'm on chapter 3 of <em>Let's Build a Compiler</em>,
+            practicing JavaScript and tweaking my Doom config.
+            <a href="doing.html">The rest...</a>
+          </p>
+        </section>
+
+        <section id="website-guide">
+          <h2>Website Guide</h2>
+          <ul>
+            <li>
+              If you find this page ugly -
+              <a href="https://bit.ly/4iwHhIy">It's minimal</a>
+            </li>
+            <li>This page was started on 9-May-2023</li>
+          </ul>
+        </section>
+      </main>
+
+      <div data-nosnippet>
+      <footer>
+        <small>Copyright (c) 2023-2026 Furgeli Sherpa</small>
+      </footer>
+      </div>
+    </div>
   </body>
 </html>
