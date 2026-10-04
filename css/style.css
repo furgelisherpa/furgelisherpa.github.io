@@ -1,70 +1,46 @@
+* { box-sizing: border-box; }
+html { font-size: 100%; }
 body {
-  font-family: 'PT Serif', sans-serif;
-  font-size: 20px;
-  background-color: #F8F8F0;
-  color: #333333;
+  margin: 0; padding: 1rem 1.25rem 2rem;
+  background: #ffffff; color: #000000;
+  font-family: "JetBrains Mono", "DejaVu Sans Mono", Consolas, Menlo, monospace;
+  font-size: 0.94rem;               /* about 15px */
+  line-height: 1.55;
 }
-header {
-  text-align: center ;
+a { color: #0000ee; }
+a:visited { color: #551a8b; }
+.page { max-width: 70rem; margin: 0 auto; }
+header { text-align: center; margin: 1rem 0 1.5rem; }
+h1 { font-size: 1.5rem; margin: 0 0 .75rem; text-decoration: underline; }
+.tagline { text-align: center; margin: 0 0 1.5rem; }
+.linkbox {
+  border: 1px solid #000; border-radius: 6px;
+  padding: .6rem .9rem; text-align: center; line-height: 1.8;
+  margin: 0 0 1.25rem;
 }
-nav span {
-  margin: 0 5px;
+.sep { margin: 0 .35rem; }
+h2 { font-size: 1rem; margin: 1.5rem 0 .4rem; text-decoration: underline; }
+p { margin: 0 0 .75rem; }
+ul { margin: 0 0 .75rem; padding-left: 1.4rem; }
+li { margin: .2rem 0; }
+footer { margin-top: 2rem; padding-top: .5rem; border-top: 1px solid #000; text-align: center; }
+@media (max-width: 600px) { body { font-size: 0.9rem; padding: .75rem; } h1 { font-size: 1.25rem; } }
+
+/* ---- inner pages ---- */
+.meta { color: #555; font-size: .85rem; margin: 0 0 .75rem; }
+.post-list { list-style: none; padding: 0; margin: 0 0 1rem; }
+.post-list li { margin: .5rem 0; }
+.post-list .date { color: #555; margin-right: .6rem; }
+pre {
+  border: 1px solid #000; border-radius: 6px;
+  padding: .6rem .8rem; overflow-x: auto; margin: 0 0 1rem;
+  background: #fafafa; font-family: inherit; font-size: .88rem;
 }
-.navigate {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  max-width: 850px;
-  margin: 0 auto;
-}
-main {
-  display: flex;
-  padding: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-  border-radius: 10px;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  max-width: 850px;
-}
-h1, h2, h3 {
-  padding: 2px;
-  color: #3B3B3B;
-}
-.short-intro {
-  text-align: left;
-}
-.website-guide {
-  text-align: left;
-}
-.about-me span {
-  font-weight: bold;
-}
-a {
-  text-decoration: none;
-  color: #6A0DAD;
-}
-a:hover {
-  text-decoration: underline;
-  color: #C71585;
-}
-footer {
-  text-align: center;
-}
-@media (max-width: 1200px) {
-  main {
-    max-width: 90%;
-  }
-}
-@media (max-width: 768px) {
-  main {
-    max-width: 95%;
-    padding: 15px;
-  }
-}
-@media (max-width: 480px) {
-  main {
-    max-width: 100%;
-    padding: 10px;
-  }
-}
+code { font-family: inherit; background: #f2f2f2; padding: 0 .2rem; }
+pre code { background: none; padding: 0; }
+blockquote { margin: 0 0 1rem; padding-left: .9rem; border-left: 3px solid #000; }
+table { border-collapse: collapse; margin: 0 0 1rem; max-width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid #000; padding: .3rem .6rem; text-align: left; }
+hr { border: 0; border-top: 1px solid #000; margin: 1.5rem 0; }
+img { max-width: 100%; height: auto; }
+.back { margin-top: 1.5rem; }
